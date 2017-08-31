@@ -1,0 +1,17 @@
+.form-error {
+  color: #4b382c;
+  margin: 0 0 20px;
+  padding: 0 0 30px;
+  display: none;
+}
+
+#requestModalContainer {
+  button.close {
+    margin-top: -5px;
+  }
+}
+
+.form-btn {
+  background-color: #4b382c !important;
+  padding: 10px 15px !important;
+}

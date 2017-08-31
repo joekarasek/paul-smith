@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="630px" height="166px" viewBox="0 0 630 166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>The Right Dentist Fo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="DancingScriptOT, Dancing Script OT" font-size="89.3199997" font-weight="normal" line-spacing="87.6800003">
+            <tspan x="27.7428379" y="82" fill="#4B382C">The Right Dentist</tspan>
+            <tspan x="0" y="165.303258" font-family="Lato-Black, Lato" font-size="77.5199966" font-weight="700" fill="#0492AB">    For Your Family</tspan>
+        </text>
+        <filter x="-1.2%" y="-3.7%" width="102.4%" height="109.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="1">
+        <g id="Desktop-HD" transform="translate(-66.000000, -217.000000)" fill="#4B382C">
+            <g id="Slide-1" transform="translate(0.000000, 99.000000)">
+                <g id="slide1-text-layer" transform="translate(66.000000, 108.000000)">
+                    <g id="The-Right-Dentist-Fo">
+                        <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                        <use xlink:href="#text-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
