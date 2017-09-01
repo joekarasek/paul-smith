@@ -100,16 +100,22 @@
     autoWidth: false,
     nav: false,
     dots: false,
-    margin: 40,
+    margin: 10,
     slideBy: 1,
     responsive: {
       550: {
         items: 3
       },
-      992: {
+      768: {
         items: 4
       },
+      992: {
+        items: 3
+      },
       1200: {
+        items: 4
+      },
+      1440: {
         items: 5,
         autoplay: false
       }

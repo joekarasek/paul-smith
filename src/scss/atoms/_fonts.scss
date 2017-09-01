@@ -87,7 +87,7 @@ h1 {
 
 @mixin h2() {
   @include headings();
-  @include font-size(48px, 36px, 34px, 36px, 30px);
+  @include font-size(36px, 32px, 30px, 30px, 26px);
 }
 
 .h2,
@@ -114,7 +114,7 @@ h3 {
 
 @mixin h4() {
   @include headings();
-  @include font-size(28px, 26px, 24px, 24px, 22px);
+  @include font-size(24px, 22px, 20px, 20px, 20px);
 }
 
 .h4,
@@ -126,7 +126,7 @@ h4 {
   font-weight: 400;
 
   @include headings();
-  @include font-size(24px, 23px, 23px, 24px, 23px);
+  @include font-size(22px, 20px, 18px, 18px, 18px);
 }
 
 .h5,
@@ -138,7 +138,7 @@ h5 {
   font-weight: 400;
 
   @include headings();
-  @include font-size(18px, 18px, 16px, 16px, 16px);
+  @include font-size(20px, 19px, 18px, 17px, 17px);
 }
 
 .h6,
