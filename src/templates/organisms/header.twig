@@ -1,44 +1,44 @@
 <!-- Header
 ============================================= -->
-<header id="header" class="full-header{% if transparent %} {{ "full-header--transparent" }}{% endif %}">
+<header id="header" class="no-sticky">
+    <div id="header-wrap">
+        <div class="container clearfix">
+            <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
-    <div id="header-wrap" >
+            <!-- Logo
+            ============================================= -->
+            <div id="logo" class="nobottomborder">
+                <a href="index.html" class="standard-logo" data-dark-logo="images/logo.svg"><img src="/assets/logo.svg" alt="Dr. Paul B. Smith - Creekwood Dental"></a>
+                <a href="index.html" class="retina-logo" data-dark-logo="images/logo.svg"><img src="/assets/logo.svg" alt="Dr. Paul B. Smith - Creekwood Dental"></a>
+            </div>
 
-        <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-        <!-- Logo
-  ============================================= -->
-        <div id="logo">
-            <a href="#" data-scrollto="#header" data-offset="60">
-                <div>
-                    <img src="assets/smith-lori-logo.png" alt="{{ mainDocter }}">
+            <!-- Primary Navigation
+            ============================================= -->
+            <nav id="primary-menu" class="nobottomborder">
+                <div  class="hidden-xs hidden-sm">
+                    <p class="center">Dr. Paul B. Smith, <span>DDS</span></p>
                 </div>
-            </a>
-        </div><!-- #logo end -->
+                <ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="750" data-offset="0">
+                    <li><a href="#" data-href="#section-specials"><div>New Patient Offers</div></a></li>
+                    <li><a href="#" data-href="#section-reviews"><div>Reviews</div></a></li>
+                    <li><a href="#" data-href="#section-insurance"><div>No Insurance?</div></a></li>
+                    <li><a href="#" data-href="#section-about"><div>Meet the Doctor</div></a></li>
+                    <li><a href="#" data-href="#section-services"><div>Services</div></a></li>
+                    <li><a href="#" data-href="#section-forms"><div>Forms</div></a></li>
+                    <li><a href="#" data-href="#section-location"><div>Location</div></a></li>
+                </ul>
+            </nav>
 
-        <!-- Primary Navigation
-  ============================================= -->
-        <nav id="primary-menu">
+            <!-- CALLS TO ACTION
+            ============================================= -->
+            <div id="calls-to-action-sidebar" class="hidden-xs hidden-sm">
+                <p>New Patient Hotline <a class="phone-number" href="tel:{{ newPhone }}">{{ newPhoneNoBreak }}</a></p>
+                {% include 'atoms/request-appointment-button.twig' %}
+                <p class="existing-text">Existing Patients: <a class="phone-number small" href="tel:{{ existingPhone }}">{{ existingPhoneNoBreak }}</a></p>
+            </div>
 
-            {#<p class="menu-copy hidden-sm hidden-xs">New Patients Call: <a href="tel:{{ newPhone }}" class="menu-copy__phone">{{ newPhoneNoBreak }}</a></p>#}
-            <ul class="one-page-menu navbar" data-easing="easeInOutExpo" data-speed="1500">
-                <li><a href="#" data-offset="80" data-href="#section-specials">Special Offers</a></li>
-                <li><a href="#" data-offset="80" data-href="#section-reviews">Reviews</a></li>
-                <li><a href="#" data-offset="80" data-href="#section-insurance">No Insurance?</a></li>
-                <li><a href="#" data-offset="80" data-href="#section-about">Meet the Team</a></li>
-                <li><a href="#" data-offset="80" data-href="#section-services">Services</a></li>
-                <li><a href="#" data-offset="80" data-href="#section-forms">Forms</a></li>
-                <li><a href="#" data-offset="80" data-href="#section-tour">Tour</a></li>
-                <li><a href="#" data-offset="80" data-href="#section-location">Location</a></li>
-            </ul>
+        </div>
 
-            <!-- Top Searchh
-    ============================================= -->
-
-        </nav><!-- #primary-menu end -->
-
-        <!--</div>-->
     </div>
-
-</header><!-- #header end -->
+</header>
 <div class="clear"></div>

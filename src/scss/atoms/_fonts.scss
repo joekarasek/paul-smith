@@ -104,7 +104,7 @@ h2 {
 
 @mixin h3() {
   @include headings();
-  @include font-size(36px, 32px, 27px, 28px, 22px);
+  @include font-size(32px, 28px, 26px, 28px, 22px);
 }
 
 .h3,
@@ -147,7 +147,7 @@ h6 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 
   @media screen and (max-width: $width-sm) {

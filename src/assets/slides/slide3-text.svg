@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="872px" height="185px" viewBox="0 0 872 185" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="26.407704 39.483871 10.0868454 47.6179957 13.203852 30.389643 -2.7533531e-14 18.1884559 18.2472747 15.6748731 26.407704 0 34.5681333 15.6748731 52.815408 18.1884559 39.611556 30.389643 42.7285626 47.6179957"></polygon>
+        <filter x="-13.3%" y="-10.5%" width="126.5%" height="129.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="87.407704 39.483871 71.0868454 47.6179957 74.203852 30.389643 61 18.1884559 79.2472747 15.6748731 87.407704 0 95.5681333 15.6748731 113.815408 18.1884559 100.611556 30.389643 103.728563 47.6179957"></polygon>
+        <filter x="-13.3%" y="-10.5%" width="126.5%" height="129.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-5" points="149.407704 39.483871 133.086845 47.6179957 136.203852 30.389643 123 18.1884559 141.247275 15.6748731 149.407704 0 157.568133 15.6748731 175.815408 18.1884559 162.611556 30.389643 165.728563 47.6179957"></polygon>
+        <filter x="-13.3%" y="-10.5%" width="126.5%" height="129.4%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-7" points="211.407704 39.483871 195.086845 47.6179957 198.203852 30.389643 185 18.1884559 203.247275 15.6748731 211.407704 0 219.568133 15.6748731 237.815408 18.1884559 224.611556 30.389643 227.728563 47.6179957"></polygon>
+        <filter x="-13.3%" y="-10.5%" width="126.5%" height="129.4%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-9" points="276.407704 39.483871 260.086845 47.6179957 263.203852 30.389643 250 18.1884559 268.247275 15.6748731 276.407704 0 284.568133 15.6748731 302.815408 18.1884559 289.611556 30.389643 292.728563 47.6179957"></polygon>
+        <filter x="-13.3%" y="-10.5%" width="126.5%" height="129.4%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-11" x="577" y="143" width="296" height="60" rx="30"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-444.000000, -504.000000)">
+            <g id="Slide3" transform="translate(348.000000, -2.000000)">
+                <g id="Group-11">
+                    <g id="Group-10" transform="translate(95.000000, 488.000000)">
+                        <text id="Excellent" font-family="Lato-Bold, Lato" font-size="75" font-weight="bold" letter-spacing="1.33000004" fill="#5F5F5E">
+                            <tspan x="12" y="74">Excellent</tspan>
+                        </text>
+                        <g id="Stars" transform="translate(351.000000, 26.000000)">
+                            <g id="Star">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FFD900" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <g id="Star">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                <use fill="#FFD900" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            </g>
+                            <g id="Star">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                                <use fill="#FFDA00" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            </g>
+                            <g id="Star">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                                <use fill="#FFD900" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            </g>
+                            <g id="Star">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                                <use fill="#FFD900" fill-rule="evenodd" xlink:href="#path-9"></use>
+                            </g>
+                        </g>
+                        <text id="“Creekwood-Dental-is" font-family="Lato-Regular, Lato" font-size="32" font-weight="normal" letter-spacing="1.90999997" fill="#696968">
+                            <tspan x="0" y="122">“Creekwood Dental is the best dentist office I have  </tspan>
+                            <tspan x="0" y="161"> ever been to! </tspan>
+                            <tspan x="229.609999" y="161" letter-spacing="2.31276369">-Autumn C.</tspan>
+                        </text>
+                        <g id="Rectangle-2-Copy-3">
+                            <use fill="#30A3D3" fill-rule="evenodd" xlink:href="#path-11"></use>
+                            <rect stroke="#FFFFFF" stroke-width="2.4" x="578.2" y="144.2" width="293.6" height="57.6" rx="28.8"></rect>
+                        </g>
+                        <text id="READ-MORE-REVIEWS" font-family="Lato-Black, Lato" font-size="16" font-weight="700" line-spacing="21.6" letter-spacing="2.19284248" fill="#FFFFFF">
+                            <tspan x="625.532839" y="178">READ MORE REVIEWS</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

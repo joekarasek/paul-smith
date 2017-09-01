@@ -1,5 +1,110 @@
-#header.full-header {
+#header {
+  @media (min-width: 992px) {
+    #header-wrap .container {
+      padding: 0 20px !important;
+    }
+  }
+
   #logo {
     border: none;
+
+    img {
+      padding: 10px 0;
+    }
+
+    @media (min-width: 992px) {
+      margin-top: 15px;
+      margin-bottom: 20px;
+    }
+  }
+
+  #primary-menu-trigger {
+    right: 0;
+    left: auto;
+
+    i {
+      font-size: 26px;
+    }
+  }
+
+  #primary-menu {
+    p {
+      font-family: $ff-merri;
+      font-weight: 400;
+      color: #5f5f5e;
+      margin-bottom: 20px;
+
+      span {
+        color: #5f5f5e;
+        font-size: 16px;
+      }
+    }
+
+    ul {
+      li {
+        border-bottom: rgba(95, 95, 94, 0.31) solid 1px;
+        max-width: 190px;
+
+        a {
+          font-family: $ff-lato;
+          text-transform: none;
+        }
+      }
+
+      @include nav-color(#5f5f5e, 400);
+      @include nav-color(#7f71ad, 700, 1);
+      @include nav-color(#71b28d, 700, 2);
+      @include nav-color(#5594af, 700, 3);
+    }
+  }
+
+  #calls-to-action-sidebar {
+    p {
+      font-family: $ff-open;
+      color: #5f5f5e;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+
+    .phone-number {
+      color: #5f5f5e;
+      font-weight: 900;
+      font-family: $ff-lato;
+      line-height: 1.5;
+
+      @include font-size(30px, 28px, 26px, 28px, 22px);
+
+      &.small {
+        font-size: 14px !important;
+        font-weight: 700;
+      }
+    }
+
+    .existing-text {
+      font-family: $ff-lato;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .btn {
+      margin-bottom: 10px;
+      font-size: 12px;
+      padding: 12px 25px;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .side-header:not(.open-header) #wrapper {
+    margin: 0 0 0 290px !important;
+  }
+
+  .side-header #header {
+    width: 290px;
+  }
+
+  .side-header #header .container {
+    width: 290px !important;
   }
 }
