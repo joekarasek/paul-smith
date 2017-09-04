@@ -1,8 +1,9 @@
 //Overrides for Canvas
 #footer {
   position: relative;
-  background-color: #4b382c;
+  background-color: #71adc6;
   border-top: none;
+  padding: 30px 0;
 
   a {
     @include link-color(#fff);
@@ -11,7 +12,7 @@
   p {
     font-weight: 400;
     font-family: $ff-lato;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.7;
     color: #fff;
 
@@ -28,18 +29,6 @@
     }
   }
 
-  @media screen and (max-width: $width-md) {
-    text-align: center;
-  }
-
-  .footer-padding {
-    padding: 25px;
-
-    @media (max-width: $width-md) {
-      padding: 20px;
-    }
-  }
-
   .text {
     @media (min-width: 768px) {
       text-align: right;
@@ -50,10 +39,6 @@
     font-weight: 400;
     color: #fff;
     margin-bottom: 5px;
-  }
-
-  .facebook-link {
-    margin-bottom: 20px;
   }
 
   .flex--wrapper {
@@ -69,9 +54,5 @@
         order: 1;
       }
     }
-  }
-
-  .accessibility {
-    padding-left: 5px;
   }
 }
