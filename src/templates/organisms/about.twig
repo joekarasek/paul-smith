@@ -45,7 +45,28 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
-    {# these are the icons on bottom #}
+    <div class="team">
+        <div class="container heading center">
+            <h2 class="heading__title">Our Team</h2>
+            <h5 class="heading__sub">Select a link to learn more</h5>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="owl-carousel js-team-carousel">
+                    {% for person in team %}
+                        <div class="team__card center" data-toggle="modal" data-target="#modal--{{ person.modalTarget }}">
+                            <img src="/assets/team/{{ person.image }}" alt="{{ person.name }} - {{ person.title }}" class="team__image">
+                            <h5 class="team__name">{{ person.name }}</h5>
+                            <h6 class="team__learn-more"><a href="#" data-target="#" data-toggle="modal">Learn More</a></h6>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include 'molecules/team__modals.twig' %}
 
 </section>
 

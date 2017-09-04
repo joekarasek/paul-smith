@@ -70,4 +70,50 @@
       padding: 60px 0;
     }
   }
+
+  .team {
+    background-color: #faf6ed;
+    padding-top: 30px;
+    padding-bottom: 45px;
+
+    .heading {
+      &__title {
+        margin-bottom: 10px;
+        line-height: 1;
+        color: #5f5f5e;
+      }
+
+      &__sub {
+        margin-bottom: 30px;
+        line-height: 1;
+        color: #5f5f5e;
+      }
+    }
+
+    &__name {
+      color: #72afc8;
+      font: 700;
+      font-family: $ff-merri;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    &__learn-more {
+      text-decoration: underline !important;
+      margin-bottom: 0;
+
+      a {
+        color: #5f5f5e;
+
+        &:active,
+        &:hover {
+          color: #5f5f5e;
+        }
+      }
+    }
+  }
+
+  .modal-image {
+    margin-top: 5px;
+  }
 }

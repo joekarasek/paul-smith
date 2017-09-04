@@ -122,18 +122,29 @@
     }
   });
   HelloWorldDevsTysonSteele.pyramidCarousel('.js-team-carousel', {
-    items: 1,
+    items: 2,
     autoplay: true,
+    autoplayHoverPause:false,
     navText: [
       '<img src="assets/arrow-left.png">',
       '<img src="assets/right-arrow.png">'
     ],
     responsive: {
-      550: {
-        items: 2
+      480: {
+        items: 3
+      },
+      992: {
+        items: 4
+      },
+      1200: {
+        items: 5
+      },
+      1440: {
+        items: 6,
+        autoplay: false
       }
     },
-    margin: 30
+    margin: 20
   });
   HelloWorldDevsTysonSteele.updateCopyright('.js-copyright-year');
 
