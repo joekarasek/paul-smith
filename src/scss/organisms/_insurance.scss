@@ -15,6 +15,7 @@
     line-height: 1;
     color: $c-no-insurance;
     padding-top: 20px;
+    font-weight: 700;
 
     @include font-size(54px, 48px, 44px, 40px, 36px);
   }
@@ -29,7 +30,7 @@
   }
 
   .preventative-care {
-    font-weight: 400;
+    font-weight: 700;
     line-height: 1.5;
     color: $c-preventative;
     letter-spacing: -0.24px;
