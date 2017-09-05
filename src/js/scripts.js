@@ -17,83 +17,28 @@
 
   var marqueeSwiper = new Swiper('.swiper-container', defaultSettings);
 
-  HelloWorldDevsTysonSteele.tourCarousel('.js-tour-carousel', {
+  HelloWorldDevsTysonSteele.tourCarousel('.js-service-carousel', {
+    items: 2,
     autoplay: true,
-    autoplayTimeout: 10000,
-    items: 1,
-    margin: 40,
-    navText: [
-      '<img src="assets/tour-left.png">',
-      '<img src="assets/tour-right.png">'
-    ],
-    autoHeight: true
-  });
-  HelloWorldDevsTysonSteele.tourCarousel('.js-services-carousel', {
-    items: 1,
-    margin: 40,
-    navText: [
-      '<img src="assets/services-left.png">',
-      '<img src="assets/services-right.png">'
-    ],
-    autoHeight: true
-  });
-  HelloWorldDevsTysonSteele.tourCarousel('.js-services-carousel--two', {
-    items: 1,
-    loop: true,
-    autoplay: true,
-    autoplaySpeed: 500,
-    autoplayTimeout: 2000,
-    autoplayHoverPause:false,
-    autoWidth: false,
-    navText: [
-      '<img src="assets/services-left.png">',
-      '<img src="assets/services-right.png">'
-    ],
-    dots: false,
-    margin: 30,
-    slideBy: 1,
+    autoplayHoverPause: false,
     responsive: {
-      550: {
-        items: 2
-      },
-      768: {
+      480: {
         items: 3
       },
       992: {
         items: 4
       },
       1200: {
-        items: 3
-      }
-    }
-  });
-  HelloWorldDevsTysonSteele.tourCarousel('.js-services-carousel--two-mobile', {
-    items: 1,
-    loop: true,
-    autoplay: true,
-    autoplaySpeed: 500,
-    autoplayTimeout: 2000,
-    autoplayHoverPause:false,
-    autoWidth: false,
-    navText: [
-      '<img src="assets/services-left.png">',
-      '<img src="assets/services-right.png">'
-    ],
-    dots: false,
-    margin: 30,
-    slideBy: 1,
-    responsive: {
-      550: {
-        items: 2
+        items: 5
       },
-      768: {
-        items: 3
-      },
-      992: {
-        items: 4
+      1440: {
+        items: 6,
+        autoplay: false
       }
-    }
+    },
+    margin: 20
   });
+
   HelloWorldDevsTysonSteele.associationCarousel('.js-associations-carousel', {
     items: 2,
     loop: true,
@@ -129,10 +74,6 @@
     items: 2,
     autoplay: true,
     autoplayHoverPause:false,
-    navText: [
-      '<img src="assets/arrow-left.png">',
-      '<img src="assets/right-arrow.png">'
-    ],
     responsive: {
       480: {
         items: 3

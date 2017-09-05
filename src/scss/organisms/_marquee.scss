@@ -128,6 +128,43 @@
     display: block;
     position: relative;
   }
+
+  #calls-to-action {
+    p {
+      font-family: $ff-open;
+      color: #5f5f5e;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+
+    .phone-number {
+      color: #5f5f5e;
+      font-weight: 900;
+      font-family: $ff-lato;
+      line-height: 1.5;
+
+      @include font-size(30px, 28px, 26px, 28px, 22px);
+
+      &.small {
+        font-size: 14px !important;
+        font-weight: 700;
+      }
+    }
+
+    .existing-text {
+      font-family: $ff-lato;
+      font-size: 16px;
+      font-weight: 700;
+      color: #5f5f5e;
+    }
+
+    .btn {
+      margin-bottom: 10px;
+      font-size: 12px;
+      padding: 12px 25px;
+      letter-spacing: 1px;
+    }
+  }
 }
 
 .swiper_wrapper {

@@ -4,6 +4,11 @@
     <a href="#" data-scrollto="#section-specials" data-offset="0">
         <img src="assets/slides/slide-mobile.jpg" style="width:100%;height:auto;" alt="{{ title }}">
     </a>
+    <div id="calls-to-action" class="center">
+        <p><a class="phone-number" href="tel:{{ newPhone }}">{{ newPhoneNoBreak }}</a></p>
+        {% include 'atoms/request-appointment-button.twig' %}
+        <p class="existing-text">Existing Patients<br><a class="phone-number small" href="tel:{{ existingPhone }}">{{ existingPhoneNoBreak }}</a></p>
+    </div>
 </div>
 
 <!-- Slider

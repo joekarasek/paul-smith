@@ -23,7 +23,7 @@ button.btn {
 
   &.btn--style-two {
     background: none;
-    background-color: #06b7d7;
+    background-color: #30a3d3;
     border: solid 2px #fff;
     font-family: $ff-lato;
     //box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.36);
@@ -32,7 +32,7 @@ button.btn {
 
     &:hover,
     &:focus {
-      background-color: darken(#06b7d7, 15%);
+      background-color: darken(#30a3d3, 15%);
       //box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.d46);
     }
   }

@@ -28,4 +28,25 @@
             </div>
         </div>
     </div>
+
+    <div class="carousel">
+        <div class="heading container center">
+            <h2 class="heading__title">More Services</h2>
+            <div class="heading__copy">Select a link to learn more</div>
+        </div>
+
+        <div class="container">
+            <div class="owl-carousel js-service-carousel">
+                {% for service in services %}
+                    <div class="card center" data-toggle="modal" data-target="#modal--{{ service.modalTarget }}">
+                        <img src="/assets/services/{{ service.image }}" alt="{{ service.titleFull }}" class="card__image">
+                        <h4 class="card__title">{{ service.title }}</h4>
+                        <h6 class="card__sub">Learn More</h6>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
 </section>
+{%  include 'molecules/services__modals.twig' %}
