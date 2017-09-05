@@ -12,16 +12,7 @@
     position: absolute;
     text-align: center;
     width: 100%;
-    transform: translateY(-75%);
+    transform: translateY(-200%);
     z-index: 150;
-  }
-}
-
-.down-arrow {
-  &--icon {
-    position: relative;
-    top: -20px;
-    color: #323437;
-    font-size: 20px;
   }
 }

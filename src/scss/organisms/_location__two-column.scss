@@ -6,6 +6,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  border-top: solid 5px #fff;
+  border-bottom: solid 5px #fff;
 
   .location__map,
   .location__card--wrapper {

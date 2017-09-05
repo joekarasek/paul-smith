@@ -58,11 +58,11 @@ h6 {
 @mixin font-size($xl, $lg, $md: 18px, $sm: 16px, $xs: 14px) {
   font-size: $xl;
 
-  @media screen and (max-width: $width-lg) {
+  @media screen and (max-width: $width-lg - 1) {
     font-size: $lg;
   }
 
-  @media screen and (max-width: $width-md) {
+  @media screen and (max-width: $width-md - 1) {
     font-size: $md;
   }
 
@@ -70,7 +70,7 @@ h6 {
     font-size: $sm;
   }
 
-  @media screen and (max-width: $width-xs) {
+  @media screen and (max-width: $width-xs - 1) {
     font-size: $xs;
   }
 }
@@ -113,7 +113,7 @@ h3 {
 
 @mixin h4() {
   @include headings();
-  @include font-size(24px, 22px, 20px, 20px, 20px);
+  @include font-size(20px, 19px, 20px, 20px, 20px);
 }
 
 .h4,

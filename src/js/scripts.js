@@ -8,11 +8,15 @@
   HelloWorldDevsTysonSteele.requestAppointment('#mail-form', '#success_msg' , '7fb35345-752d-4792-9480-cd3db6674a62');
 
   // ======= Carousels =======
-  HelloWorldDevsTysonSteele.marqueeCarousel({
+  var defaultSettings = {
+    speed: 500,
     autoplay: 6000,
-    effect: 'fade',
-    speed: 500
-  });
+    loop: true,
+    autoplayDisableOnInteraction: false
+  };
+
+  var marqueeSwiper = new Swiper('.swiper-container', defaultSettings);
+
   HelloWorldDevsTysonSteele.tourCarousel('.js-tour-carousel', {
     autoplay: true,
     autoplayTimeout: 10000,
@@ -149,11 +153,21 @@
   HelloWorldDevsTysonSteele.updateCopyright('.js-copyright-year');
 
   // ======= Google Maps =======
-  HelloWorldDevsTysonSteele.googleMap('#google-map5', '36.3054821,-95.3133126', '36.3054821,-95.3133126');
+  HelloWorldDevsTysonSteele.googleMap('#google-map5', '30.0473254,-95.1838827', '30.0473254,-95.1838827');
 
   $('#gallery-btn').click( function(e) {
     e.preventDefault();
     $('#gallery-target').click();
+  });
+
+  $('.swiper-button-prev').click(function() {
+    console.log("yolo");
+    marqueeSwiper.swipePrev();
+  });
+
+  $('.swiper-button-next').click(function() {
+    console.log("yolo");
+    marqueeSwiper.swipeNext();
   });
 
 }(jQuery, HelloWorldDevsTysonSteele));

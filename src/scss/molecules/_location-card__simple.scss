@@ -2,10 +2,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  //background: $c-white;
-  //margin: 30px 0;
   padding-top: 30px;
-  //padding-bottom: 30px;
+  padding-bottom: 20px;
 
   @media (max-width: $width-md) {
     margin-bottom: 5px;
@@ -49,41 +47,44 @@
   }
 
   &__doctor {
-    color: #2f1d0f;
+    color: #5f5f5e;
     font-weight: 700;
     line-height: 1;
-    // margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-family: $ff-lato;
 
-    @include font-size(36px, 34px, 32px, 30px, 28px);
+    @include font-size(20px, 19px, 26px, 24px, 22px);
 
     &--title {
-      color: #2f1d0f !important;
+      color: #5f5f5e !important;
       font-weight: 400;
+
+      @include font-size(18px, 17px, 24px, 22px, 20px);
     }
   }
 
   &__address {
-    color: #2f1d0f;
-    font-size: 20px;
+    color: #000;
     margin-top: 25px;
-    font-family: $ff-lato;
-    font-weight: 700;
+    font-family: $ff-open;
+
+    @include font-size(20px, 19px, 22px, 20px, 19px);
   }
 
   &__map-link {
-    color: #008aa3;
+    color: #345a75;
     text-decoration: underline;
     font-size: 16px;
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-family: $ff-lato;
-    font-weight: 700;
+
+    @include font-size(20px, 19px, 22px, 20px, 19px);
   }
 
   &__new-patient-text {
-    color: #2f1d0f;
+    color: #5f5f5e;
     font-size: 18px;
     margin-bottom: 0;
     line-height: 1;
@@ -94,23 +95,24 @@
     display: block;
     font-size: 40px;
     font-weight: 900;
-    color: #2f1d0f;
+    color: #5f5f5e;
     font-family: $ff-lato;
     margin-top: 5px;
     margin-bottom: 5px;
     line-height: 1;
 
-    @include font-size(38px, 38px, 36px, 36px, 32px);
+    @include font-size(32px, 28px, 26px, 28px, 28px);
 
     &:hover {
-      color: #06b7d7;
+      color: #5f5f5e;
       text-decoration: none;
     }
   }
 
   &__existing-patient-text {
-    color: #2f1d0f;
-    margin-top: 15px;
+    color: #5f5f5e;
+    font-weight: 700;
+    margin-top: 5px;
     line-height: 1;
     margin-bottom: 25px;
     font-family: $ff-open;
@@ -119,13 +121,13 @@
   }
 
   &__existing-patient-number {
-    color: #2f1d0f;
+    color: #5f5f5e;
     font-family: $ff-open;
-
-    @include font-size(20px, 20px, 20px, 18px, 16px);
+    font-size: 15px;
 
     &:hover {
       // color: #fff;
+      color: #35f5f5;
       text-decoration: none;
     }
   }
@@ -167,24 +169,45 @@
   }
 
   .hours-table {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    display: inline-block;
 
     h5 {
       line-height: 1;
       margin-bottom: 0;
-      font-weight: 700;
-      font-size: 21px;
-      color: #4b382c;
+      font-weight: 400;
+      color: #71adc6;
       font-family: $ff-lato;
       padding-bottom: 10px;
+
+      @include font-size(27px, 24px, 24px, 22px, 22px);
+    }
+
+    .hours-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      > p:first-child {
+        text-align: left;
+        flex-grow: 1;
+      }
+
+      > p:last-child {
+        text-align: right;
+      }
     }
 
     p {
-      color: #4b382c;
-      font-size: 18px;
+      color: #000;
+      font-size: 16px;
       line-height: 1;
       margin: 0 auto;
       font-family: $ff-lato;
+
+      &.sub-text {
+        font-size: 13px;
+      }
     }
   }
 }

@@ -16,12 +16,12 @@
   "googleMap" : "https://www.google.com/maps/place/Creekwood+Dental/@30.0473254,-95.1838827,15z/data=!4m2!3m1!1s0x0:0x2dc6bb4ec6bcdd74?sa=X&ved=0ahUKEwjd55X07oTVAhWQ3oMKHQX4CLQQ_BIIeDAK",
   "socialMediaLinks": [
     {
-      "media": "google-plus",
-      "link": "https://www.google.com/maps/place/Creekwood+Dental/@30.0473254,-95.1838827,15z/data=!4m2!3m1!1s0x0:0x2dc6bb4ec6bcdd74?sa=X&ved=0ahUKEwjd55X07oTVAhWQ3oMKHQX4CLQQ_BIIeDAK"
-    },
-    {
       "media": "facebook",
       "link": "https://www.facebook.com/CreekwoodSmiles/"
+    },
+    {
+      "media": "google-plus",
+      "link": "https://www.google.com/maps/place/Creekwood+Dental/@30.0473254,-95.1838827,15z/data=!4m2!3m1!1s0x0:0x2dc6bb4ec6bcdd74?sa=X&ved=0ahUKEwjd55X07oTVAhWQ3oMKHQX4CLQQ_BIIeDAK"
     }
   ]
 }
