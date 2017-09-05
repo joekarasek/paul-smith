@@ -32,7 +32,7 @@ a[data-target^="#team-"]:hover {
   width: 100%;
 }
 
-iframe[src^="https://birdeye.com"]
+.birdeye-widget iframe,
 .birdeye-widget {
   @media (max-width: 767px) {
     max-height: 500px;
