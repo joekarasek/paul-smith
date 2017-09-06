@@ -43,7 +43,10 @@
     ul {
       li {
         border-bottom: rgba(95, 95, 94, 0.31) solid 1px;
-        max-width: 190px;
+
+        @media (min-width: 992px) {
+          max-width: 190px;
+        }
 
         a {
           font-family: $ff-lato;

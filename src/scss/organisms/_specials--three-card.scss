@@ -15,7 +15,7 @@
       line-height: 1;
       color: #fff;
       font-weight: 400;
-      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+      text-shadow: 0 2px 10px rgb(252, 255, 177);
     }
 
     &__byline {
@@ -23,7 +23,7 @@
       font-weight: 700;
       line-height: 1;
       margin-bottom: 5px;
-      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+      text-shadow: 0 2px 10px rgb(252, 255, 177);
     }
 
     &__sub-title {
@@ -115,6 +115,8 @@
       font-weight: 700;
       line-height: 1.1;
       margin-bottom: 10px;
+
+      @include font-size(30px, 28px, 26px, 28px, 22px);
 
       &::first-line {
         font-weight: 400;
