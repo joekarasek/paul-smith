@@ -1,6 +1,11 @@
 #section-about {
   background-image: none;
 
+  .owl-carousel .owl-nav [class*=owl-],
+  .owl-carousel:hover .owl-nav .owl-next {
+    opacity: 1;
+  }
+
   .about__title {
     margin-top: 30px;
     margin-bottom: 30;

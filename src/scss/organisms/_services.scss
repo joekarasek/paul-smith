@@ -1,4 +1,9 @@
 #section-services {
+  .owl-carousel .owl-nav [class*=owl-],
+  .owl-carousel:hover .owl-nav .owl-next {
+    opacity: 1;
+  }
+
   @media (min-width: 768px) {
     .container-fluid > .row {
       display: flex;
